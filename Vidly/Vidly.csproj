@@ -228,9 +228,22 @@
     <Compile Include="Migrations\201704212300240_AddedBirthDateToCustomer.Designer.cs">
       <DependentUpon>201704212300240_AddedBirthDateToCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201704212339260_AddedMoviesTableToTheDatabase.cs" />
+    <Compile Include="Migrations\201704212339260_AddedMoviesTableToTheDatabase.Designer.cs">
+      <DependentUpon>201704212339260_AddedMoviesTableToTheDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201704212350148_AddedGenreTableAndAddedNewMovieProperties.cs" />
+    <Compile Include="Migrations\201704212350148_AddedGenreTableAndAddedNewMovieProperties.Designer.cs">
+      <DependentUpon>201704212350148_AddedGenreTableAndAddedNewMovieProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201704212352288_PopulateGenreTable.cs" />
+    <Compile Include="Migrations\201704212352288_PopulateGenreTable.Designer.cs">
+      <DependentUpon>201704212352288_PopulateGenreTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -343,6 +356,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201704212300240_AddedBirthDateToCustomer.resx">
       <DependentUpon>201704212300240_AddedBirthDateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704212339260_AddedMoviesTableToTheDatabase.resx">
+      <DependentUpon>201704212339260_AddedMoviesTableToTheDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704212350148_AddedGenreTableAndAddedNewMovieProperties.resx">
+      <DependentUpon>201704212350148_AddedGenreTableAndAddedNewMovieProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704212352288_PopulateGenreTable.resx">
+      <DependentUpon>201704212352288_PopulateGenreTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

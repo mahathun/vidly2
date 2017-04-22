@@ -16,7 +16,8 @@ else
         <thead>
             <tr>
 
-                <td>Movie Name</td>
+                <th>Movie Name</th>
+                <th>Genre</th>
             </tr>
         </thead>
         <tbody>
@@ -25,6 +26,7 @@ else
                 <tr>
 
                     <td><a href="/movies/details/@movie.Id">@movie.Name</a> </td>
+                    <td>@movie.Genre.GenreName</td>
                 </tr>
             }
         </tbody>
